@@ -1,0 +1,39 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.div{
+    text-align: center;
+    width: 250px;
+    height: 50px;
+    background-color: rgb(246, 209, 163);
+    color: rgb(50, 140, 170);
+}
+.prev{
+    background-color: blue;
+    color:aliceblue;
+    margin: 2px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.next{
+    background-color: green;
+    color:aliceblue;
+    margin: 2px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.submit{
+    background-color: red;
+    color:aliceblue;
+    margin: 2px;
+    padding: 10px;
+    border-radius: 5px;
+}
